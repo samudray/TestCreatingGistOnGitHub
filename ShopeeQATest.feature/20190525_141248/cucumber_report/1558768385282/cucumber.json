@@ -1,0 +1,404 @@
+[
+  {
+    "line": 8,
+    "elements": [
+      {
+        "line": 12,
+        "name": "As a user, I want to create a public gist",
+        "description": "",
+        "id": "creating-gist-in-github;as-a-user--i-want-to-create-a-public-gist",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41740771689,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I open GitHub Login Page",
+            "match": {
+              "location": "ShopeeQATestStepDef.openToLoginPageGithub()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20605162782,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I login with my account github",
+            "match": {
+              "location": "ShopeeQATestStepDef.loginGithubAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6303642154,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I create new gist named \"HowToImportDatasetinRStudio.R\" with \"library(ggplot2)\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HowToImportDatasetinRStudio.R",
+                  "offset": 25
+                },
+                {
+                  "val": "library(ggplot2)",
+                  "offset": 62
+                }
+              ],
+              "location": "ShopeeQATestStepDef.createGist(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2655247508,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click Create Public Gist",
+            "match": {
+              "location": "ShopeeQATestStepDef.clickPublicGist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 609987170,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I SignOut Account",
+            "match": {
+              "location": "ShopeeQATestStepDef.signOutAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 268586865,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I close the browser",
+            "match": {
+              "location": "ShopeeQATestStepDef.iCloseBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoopeTestQA"
+          },
+          {
+            "name": "@SmokeTest1"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "As a user, I want to edit an existing gist",
+        "description": "",
+        "id": "creating-gist-in-github;as-a-user--i-want-to-edit-an-existing-gist",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39030744769,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I open GitHub Login Page",
+            "match": {
+              "location": "ShopeeQATestStepDef.openToLoginPageGithub()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20554280532,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I login with my account github",
+            "match": {
+              "location": "ShopeeQATestStepDef.loginGithubAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3349481708,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I navigate to my gist",
+            "match": {
+              "location": "ShopeeQATestStepDef.openToGistGithub()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1199206143,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click existing gist \"importDatasetinRStudio.R\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "importDatasetinRStudio.R",
+                  "offset": 23
+                }
+              ],
+              "location": "ShopeeQATestStepDef.clickExistingGist(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5889213578,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I add description \"Data Visualization With R\" edit with value \"nameVariable \u003c- read_xlsx(\"YourDirectoryDataSet\", 1)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Data Visualization With R",
+                  "offset": 19
+                },
+                {
+                  "val": "nameVariable \u003c- read_xlsx(\"YourDirectoryDataSet\", 1)",
+                  "offset": 63
+                }
+              ],
+              "location": "ShopeeQATestStepDef.editExistingGit(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 541260581,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I SignOut Account",
+            "match": {
+              "location": "ShopeeQATestStepDef.signOutAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 225282829,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I close the browser",
+            "match": {
+              "location": "ShopeeQATestStepDef.iCloseBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoopeTestQA"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "As a user, I want to delete an existing gist",
+        "description": "",
+        "id": "creating-gist-in-github;as-a-user--i-want-to-delete-an-existing-gist",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38342439455,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I open GitHub Login Page",
+            "match": {
+              "location": "ShopeeQATestStepDef.openToLoginPageGithub()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19616138742,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I login with my account github",
+            "match": {
+              "location": "ShopeeQATestStepDef.loginGithubAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3345072003,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I navigate to my gist",
+            "match": {
+              "location": "ShopeeQATestStepDef.openToGistGithub()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "groovy.lang.MissingPropertyException: No such property: Keys for class: ShopeeQATestStepDef\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)\n\tat org.codehaus.groovy.runtime.callsite.GetEffectivePogoPropertySite.getProperty(GetEffectivePogoPropertySite.java:87)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)\n\tat ShopeeQATestStepDef.deleteGist(ShopeeQATestStepDef.groovy:119)\n\tat ✽.I delete existing gist \"gistTest1\"(/Users/samudra/Katalon Studio/ShopeeQATest/Include/features/ShopeeQATest.feature:33)\n",
+              "duration": 1531137800,
+              "status": "failed"
+            },
+            "line": 33,
+            "name": "I delete existing gist \"gistTest1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gistTest1",
+                  "offset": 24
+                }
+              ],
+              "location": "ShopeeQATestStepDef.deleteGist(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I SignOut Account",
+            "match": {
+              "location": "ShopeeQATestStepDef.signOutAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I close the browser",
+            "match": {
+              "location": "ShopeeQATestStepDef.iCloseBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoopeTestQA"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "As a user, I want to see my list of gists",
+        "description": "",
+        "id": "creating-gist-in-github;as-a-user--i-want-to-see-my-list-of-gists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37723115811,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I open GitHub Login Page",
+            "match": {
+              "location": "ShopeeQATestStepDef.openToLoginPageGithub()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20087765995,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I login with my account github",
+            "match": {
+              "location": "ShopeeQATestStepDef.loginGithubAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3422137352,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I navigate to my gist",
+            "match": {
+              "location": "ShopeeQATestStepDef.openToGistGithub()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 413524046,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I SignOut Account",
+            "match": {
+              "location": "ShopeeQATestStepDef.signOutAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 199722574,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I close the browser",
+            "match": {
+              "location": "ShopeeQATestStepDef.iCloseBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoopeTestQA"
+          }
+        ]
+      }
+    ],
+    "name": "Creating Gist in Github",
+    "description": "\tTest functionality of GitHub Page",
+    "id": "creating-gist-in-github",
+    "keyword": "Feature",
+    "uri": "/Users/samudra/Katalon Studio/ShopeeQATest/Include/features/ShopeeQATest.feature",
+    "tags": [
+      {
+        "name": "@ShoopeTestQA",
+        "type": "Tag",
+        "location": {
+          "line": 7,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

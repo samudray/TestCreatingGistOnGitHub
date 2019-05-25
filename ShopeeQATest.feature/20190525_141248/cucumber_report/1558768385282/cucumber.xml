@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="267.855901">
+<testcase classname="Creating Gist in Github" name="As a user, I want to create a public gist" time="72.274806">
+<system-out><![CDATA[Given I open GitHub Login Page..............................................passed
+And I login with my account github..........................................passed
+When I create new gist named "HowToImportDatasetinRStudio.R" with "library(ggplot2)" value.passed
+And I click Create Public Gist..............................................passed
+Then I SignOut Account......................................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Creating Gist in Github" name="As a user, I want to edit an existing gist" time="70.814597">
+<system-out><![CDATA[Given I open GitHub Login Page..............................................passed
+And I login with my account github..........................................passed
+When I navigate to my gist..................................................passed
+And I click existing gist "importDatasetinRStudio.R"........................passed
+And I add description "Data Visualization With R" edit with value "nameVariable <- read_xlsx("YourDirectoryDataSet", 1)".passed
+Then I SignOut Account......................................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Creating Gist in Github" name="As a user, I want to delete an existing gist" time="62.900619">
+<failure message="groovy.lang.MissingPropertyException: No such property: Keys for class: ShopeeQATestStepDef&#10;&#9;at ShopeeQATestStepDef.deleteGist(ShopeeQATestStepDef.groovy:119)&#10;&#9;at ✽.I delete existing gist &quot;gistTest1&quot;(/Users/samudra/Katalon Studio/ShopeeQATest/Include/features/ShopeeQATest.feature:33)&#10;"><![CDATA[Given I open GitHub Login Page..............................................passed
+And I login with my account github..........................................passed
+When I navigate to my gist..................................................passed
+And I delete existing gist "gistTest1"......................................failed
+Then I SignOut Account......................................................skipped
+And I close the browser.....................................................skipped
+
+StackTrace:
+groovy.lang.MissingPropertyException: No such property: Keys for class: ShopeeQATestStepDef
+	at ShopeeQATestStepDef.deleteGist(ShopeeQATestStepDef.groovy:119)
+	at ✽.I delete existing gist "gistTest1"(/Users/samudra/Katalon Studio/ShopeeQATest/Include/features/ShopeeQATest.feature:33)
+]]></failure>
+</testcase>
+<testcase classname="Creating Gist in Github" name="As a user, I want to see my list of gists" time="61.865879">
+<system-out><![CDATA[Given I open GitHub Login Page..............................................passed
+And I login with my account github..........................................passed
+When I navigate to my gist..................................................passed
+Then I SignOut Account......................................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

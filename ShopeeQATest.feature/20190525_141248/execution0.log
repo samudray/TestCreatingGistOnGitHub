@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-25T14:13:04</date>
+  <millis>1558768384340</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Verification</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:13:05</date>
+  <millis>1558768385126</millis>
+  <sequence>1</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/ShopeeQATest.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">2</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-25T14:13:05</date>
+  <millis>1558768385329</millis>
+  <sequence>2</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/ShopeeQATest.feature&amp;apos; and extract report to folder: &amp;apos;/var/folders/5b/zyjfdmf917b3h4zxmfzptr640000gn/T/Katalon/Include/features/ShopeeQATest.feature/20190525_141248/cucumber_report/1558768385282&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:13:06</date>
+  <millis>1558768386728</millis>
+  <sequence>3</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO As a user, I want to create a public gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:13:06</date>
+  <millis>1558768386737</millis>
+  <sequence>4</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:13:07</date>
+  <millis>1558768387542</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:13:07</date>
+  <millis>1558768387696</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:13:45</date>
+  <millis>1558768425687</millis>
+  <sequence>9</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 8044e697107ada859fd53aa28e498db9</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">8044e697107ada859fd53aa28e498db9</property>
+</record>
+<record>
+  <date>2019-05-25T14:13:46</date>
+  <millis>1558768426128</millis>
+  <sequence>10</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.169</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.169</property>
+</record>
+<record>
+  <date>2019-05-25T14:13:46</date>
+  <millis>1558768426130</millis>
+  <sequence>11</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-05-25T14:13:46</date>
+  <millis>1558768426138</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-05-25T14:13:46</date>
+  <millis>1558768426141</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-05-25T14:13:48</date>
+  <millis>1558768428471</millis>
+  <sequence>15</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://github.com/login&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:13:48</date>
+  <millis>1558768428481</millis>
+  <sequence>16</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:13:48</date>
+  <millis>1558768428482</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:13:48</date>
+  <millis>1558768428485</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:06</date>
+  <millis>1558768446315</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;yudasamudr@gmail.com&amp;apos; is set on object &amp;apos;Object Repository/ShopeeQaTestPage/input_Username or email address_login&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:06</date>
+  <millis>1558768446832</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/ShopeeQaTestPage/input_Forgot password_password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:09</date>
+  <millis>1558768449088</millis>
+  <sequence>43</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/input_Forgot password_commit&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:09</date>
+  <millis>1558768449091</millis>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:09</date>
+  <millis>1558768449092</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:09</date>
+  <millis>1558768449095</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I create new gist named \&amp;quot;HowToImportDatasetinRStudio.R\&amp;quot; with \&amp;quot;library(ggplot2)\&amp;quot; value</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:09</date>
+  <millis>1558768449419</millis>
+  <sequence>53</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/img_New project_avatar&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:13</date>
+  <millis>1558768453007</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/a_Your gists&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:13</date>
+  <millis>1558768453944</millis>
+  <sequence>62</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Refresh successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:14</date>
+  <millis>1558768454786</millis>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;HowToImportDatasetinRStudio.R&amp;apos; is set on object &amp;apos;Object Repository/ShopeeQaTestPage/input_See all of your gists_gistcontentsname&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:15</date>
+  <millis>1558768455396</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;library(ggplot2)&amp;apos; is set on object &amp;apos;Object Repository/ShopeeQaTestPage/pre_&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:15</date>
+  <millis>1558768455399</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I create new gist named \&amp;quot;HowToImportDatasetinRStudio.R\&amp;quot; with \&amp;quot;library(ggplot2)\&amp;quot; value</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:15</date>
+  <millis>1558768455400</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I create new gist named \&amp;quot;HowToImportDatasetinRStudio.R\&amp;quot; with \&amp;quot;library(ggplot2)\&amp;quot; value</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:15</date>
+  <millis>1558768455402</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I click Create Public Gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458055</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/button_Create public gist&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458057</millis>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I click Create Public Gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458058</millis>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I click Create Public Gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458060</millis>
+  <sequence>93</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458378</millis>
+  <sequence>100</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/img_Back to GitHub_avatar&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458668</millis>
+  <sequence>107</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/img_New project_avatar_SignOut&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458671</millis>
+  <sequence>108</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458672</millis>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458674</millis>
+  <sequence>110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458940</millis>
+  <sequence>112</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458942</millis>
+  <sequence>113</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458943</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458952</millis>
+  <sequence>115</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO As a user, I want to create a public gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458955</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO As a user, I want to create a public gist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458960</millis>
+  <sequence>117</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO As a user, I want to edit an existing gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458963</millis>
+  <sequence>118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:18</date>
+  <millis>1558768458971</millis>
+  <sequence>120</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:54</date>
+  <millis>1558768494922</millis>
+  <sequence>122</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = f03bd72342b3e49141a9759370b33566</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">f03bd72342b3e49141a9759370b33566</property>
+</record>
+<record>
+  <date>2019-05-25T14:14:55</date>
+  <millis>1558768495245</millis>
+  <sequence>123</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.169</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.169</property>
+</record>
+<record>
+  <date>2019-05-25T14:14:55</date>
+  <millis>1558768495248</millis>
+  <sequence>124</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-05-25T14:14:55</date>
+  <millis>1558768495249</millis>
+  <sequence>125</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-05-25T14:14:55</date>
+  <millis>1558768495252</millis>
+  <sequence>126</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-05-25T14:14:57</date>
+  <millis>1558768497992</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://github.com/login&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:57</date>
+  <millis>1558768497994</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:57</date>
+  <millis>1558768497995</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:14:57</date>
+  <millis>1558768497998</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:15</date>
+  <millis>1558768515862</millis>
+  <sequence>140</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;yudasamudr@gmail.com&amp;apos; is set on object &amp;apos;Object Repository/ShopeeQaTestPage/input_Username or email address_login&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:16</date>
+  <millis>1558768516354</millis>
+  <sequence>149</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/ShopeeQaTestPage/input_Forgot password_password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:18</date>
+  <millis>1558768518550</millis>
+  <sequence>156</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/input_Forgot password_commit&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:18</date>
+  <millis>1558768518553</millis>
+  <sequence>157</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:18</date>
+  <millis>1558768518553</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:18</date>
+  <millis>1558768518556</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I navigate to my gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:21</date>
+  <millis>1558768521902</millis>
+  <sequence>162</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://gist.github.com/samudray&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:21</date>
+  <millis>1558768521905</millis>
+  <sequence>163</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I navigate to my gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:21</date>
+  <millis>1558768521906</millis>
+  <sequence>164</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I navigate to my gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:21</date>
+  <millis>1558768521908</millis>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I click existing gist \&amp;quot;importDatasetinRStudio.R\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:23</date>
+  <millis>1558768523105</millis>
+  <sequence>172</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/strong_importDatasetinRStudioR&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:23</date>
+  <millis>1558768523107</millis>
+  <sequence>173</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I click existing gist \&amp;quot;importDatasetinRStudio.R\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:23</date>
+  <millis>1558768523108</millis>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I click existing gist \&amp;quot;importDatasetinRStudio.R\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:23</date>
+  <millis>1558768523110</millis>
+  <sequence>175</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I add description \&amp;quot;Data Visualization With R\&amp;quot; edit with value \&amp;quot;nameVariable &amp;lt;- read_xlsx(\&amp;quot;YourDirectoryDataSet\&amp;quot;, 1)\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:24</date>
+  <millis>1558768524605</millis>
+  <sequence>182</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/a_Edit&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:24</date>
+  <millis>1558768524843</millis>
+  <sequence>189</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/pre_&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:26</date>
+  <millis>1558768526337</millis>
+  <sequence>195</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;nameVariable &amp;lt;- read_xlsx(\&amp;quot;YourDirectoryDataSet\&amp;quot;, 1)&amp;apos; sent to object: &amp;apos;Object Repository/ShopeeQaTestPage/pre_&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:26</date>
+  <millis>1558768526892</millis>
+  <sequence>204</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Data Visualization With R&amp;apos; is set on object &amp;apos;Object Repository/ShopeeQaTestPage/input_See all of your gists_gistdescription&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:28</date>
+  <millis>1558768528996</millis>
+  <sequence>211</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/button_Update public gist&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529001</millis>
+  <sequence>212</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I add description \&amp;quot;Data Visualization With R\&amp;quot; edit with value \&amp;quot;nameVariable &amp;lt;- read_xlsx(\&amp;quot;YourDirectoryDataSet\&amp;quot;, 1)\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529002</millis>
+  <sequence>213</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I add description \&amp;quot;Data Visualization With R\&amp;quot; edit with value \&amp;quot;nameVariable &amp;lt;- read_xlsx(\&amp;quot;YourDirectoryDataSet\&amp;quot;, 1)\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529004</millis>
+  <sequence>214</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529315</millis>
+  <sequence>221</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/img_Back to GitHub_avatar&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529543</millis>
+  <sequence>228</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/img_New project_avatar_SignOut&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529546</millis>
+  <sequence>229</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529546</millis>
+  <sequence>230</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529548</millis>
+  <sequence>231</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529771</millis>
+  <sequence>233</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529773</millis>
+  <sequence>234</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529774</millis>
+  <sequence>235</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529777</millis>
+  <sequence>236</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO As a user, I want to edit an existing gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529780</millis>
+  <sequence>237</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO As a user, I want to edit an existing gist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529784</millis>
+  <sequence>238</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO As a user, I want to delete an existing gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529787</millis>
+  <sequence>239</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:15:29</date>
+  <millis>1558768529794</millis>
+  <sequence>241</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:05</date>
+  <millis>1558768565636</millis>
+  <sequence>243</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 2033c8f768c20c27b540056c9e326381</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">2033c8f768c20c27b540056c9e326381</property>
+</record>
+<record>
+  <date>2019-05-25T14:16:06</date>
+  <millis>1558768566021</millis>
+  <sequence>244</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.169</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.169</property>
+</record>
+<record>
+  <date>2019-05-25T14:16:06</date>
+  <millis>1558768566024</millis>
+  <sequence>245</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-05-25T14:16:06</date>
+  <millis>1558768566026</millis>
+  <sequence>246</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-05-25T14:16:06</date>
+  <millis>1558768566028</millis>
+  <sequence>247</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-05-25T14:16:08</date>
+  <millis>1558768568127</millis>
+  <sequence>249</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://github.com/login&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:08</date>
+  <millis>1558768568129</millis>
+  <sequence>250</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:08</date>
+  <millis>1558768568130</millis>
+  <sequence>251</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:08</date>
+  <millis>1558768568132</millis>
+  <sequence>252</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:25</date>
+  <millis>1558768585289</millis>
+  <sequence>261</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;yudasamudr@gmail.com&amp;apos; is set on object &amp;apos;Object Repository/ShopeeQaTestPage/input_Username or email address_login&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:25</date>
+  <millis>1558768585596</millis>
+  <sequence>270</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/ShopeeQaTestPage/input_Forgot password_password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:27</date>
+  <millis>1558768587747</millis>
+  <sequence>277</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/input_Forgot password_commit&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:27</date>
+  <millis>1558768587748</millis>
+  <sequence>278</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:27</date>
+  <millis>1558768587749</millis>
+  <sequence>279</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:27</date>
+  <millis>1558768587751</millis>
+  <sequence>280</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I navigate to my gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:31</date>
+  <millis>1558768591094</millis>
+  <sequence>283</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://gist.github.com/samudray&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:31</date>
+  <millis>1558768591096</millis>
+  <sequence>284</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I navigate to my gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:31</date>
+  <millis>1558768591096</millis>
+  <sequence>285</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I navigate to my gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:31</date>
+  <millis>1558768591098</millis>
+  <sequence>286</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I delete existing gist \&amp;quot;gistTest1\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592382</millis>
+  <sequence>293</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/strong_gistTest1&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592612</millis>
+  <sequence>300</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/button_Delete&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592668</millis>
+  <sequence>303</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I delete existing gist \&amp;quot;gistTest1\&amp;quot; FAILED.\nReason:\ngroovy.lang.MissingPropertyException: No such property: Keys for class: ShopeeQATestStepDef\n\tat ShopeeQATestStepDef.deleteGist(ShopeeQATestStepDef.groovy:119)\n\tat \u273D.I delete existing gist \&amp;quot;gistTest1\&amp;quot;(/Users/samudra/Katalon Studio/ShopeeQATest/Include/features/ShopeeQATest.feature:33)\n</message>
+  <exception>
+    <message>groovy.lang.MissingPropertyException: No such property: Keys for class: ShopeeQATestStepDef</message>
+    <frame>
+      <class>ShopeeQATestStepDef</class>
+      <method>deleteGist</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>I delete existing gist "gistTest1"</method>
+      <line>33</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingPropertyException: No such property: Keys for class: ShopeeQATestStepDef\n\tat ShopeeQATestStepDef.deleteGist(ShopeeQATestStepDef.groovy:119)\n\tat \u273D.I delete existing gist \&quot;gistTest1\&quot;(/Users/samudra/Katalon Studio/ShopeeQATest/Include/features/ShopeeQATest.feature:33)\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingPropertyException</property>
+  <property name="failed.exception.message">No such property: Keys for class: ShopeeQATestStepDef</property>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592673</millis>
+  <sequence>305</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I delete existing gist \&amp;quot;gistTest1\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592677</millis>
+  <sequence>306</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592679</millis>
+  <sequence>307</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592680</millis>
+  <sequence>308</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592682</millis>
+  <sequence>309</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592684</millis>
+  <sequence>310</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592684</millis>
+  <sequence>311</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592689</millis>
+  <sequence>313</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO As a user, I want to delete an existing gist FAILED.\nReason:\ngroovy.lang.MissingPropertyException: No such property: Keys for class: ShopeeQATestStepDef\n\tat ShopeeQATestStepDef.deleteGist(ShopeeQATestStepDef.groovy:119)\n\tat \u273D.I delete existing gist \&amp;quot;gistTest1\&amp;quot;(/Users/samudra/Katalon Studio/ShopeeQATest/Include/features/ShopeeQATest.feature:33)\n</message>
+  <exception>
+    <message>groovy.lang.MissingPropertyException: No such property: Keys for class: ShopeeQATestStepDef</message>
+    <frame>
+      <class>ShopeeQATestStepDef</class>
+      <method>deleteGist</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>I delete existing gist "gistTest1"</method>
+      <line>33</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingPropertyException: No such property: Keys for class: ShopeeQATestStepDef\n\tat ShopeeQATestStepDef.deleteGist(ShopeeQATestStepDef.groovy:119)\n\tat \u273D.I delete existing gist \&quot;gistTest1\&quot;(/Users/samudra/Katalon Studio/ShopeeQATest/Include/features/ShopeeQATest.feature:33)\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingPropertyException</property>
+  <property name="failed.exception.message">No such property: Keys for class: ShopeeQATestStepDef</property>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592695</millis>
+  <sequence>315</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO As a user, I want to delete an existing gist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592698</millis>
+  <sequence>316</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO As a user, I want to see my list of gists</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592700</millis>
+  <sequence>317</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592711</millis>
+  <sequence>319</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:16:32</date>
+  <millis>1558768592918</millis>
+  <sequence>320</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:08</date>
+  <millis>1558768628316</millis>
+  <sequence>322</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = a0b47198b95440d372ed17f535494a9e</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">a0b47198b95440d372ed17f535494a9e</property>
+</record>
+<record>
+  <date>2019-05-25T14:17:08</date>
+  <millis>1558768628337</millis>
+  <sequence>323</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.169</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.169</property>
+</record>
+<record>
+  <date>2019-05-25T14:17:08</date>
+  <millis>1558768628339</millis>
+  <sequence>324</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-05-25T14:17:08</date>
+  <millis>1558768628340</millis>
+  <sequence>325</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-05-25T14:17:08</date>
+  <millis>1558768628342</millis>
+  <sequence>326</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-05-25T14:17:10</date>
+  <millis>1558768630422</millis>
+  <sequence>328</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://github.com/login&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:10</date>
+  <millis>1558768630424</millis>
+  <sequence>329</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:10</date>
+  <millis>1558768630425</millis>
+  <sequence>330</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I open GitHub Login Page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:10</date>
+  <millis>1558768630426</millis>
+  <sequence>331</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:27</date>
+  <millis>1558768647636</millis>
+  <sequence>340</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;yudasamudr@gmail.com&amp;apos; is set on object &amp;apos;Object Repository/ShopeeQaTestPage/input_Username or email address_login&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:28</date>
+  <millis>1558768648057</millis>
+  <sequence>349</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/ShopeeQaTestPage/input_Forgot password_password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:30</date>
+  <millis>1558768650513</millis>
+  <sequence>356</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/input_Forgot password_commit&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:30</date>
+  <millis>1558768650515</millis>
+  <sequence>357</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:30</date>
+  <millis>1558768650515</millis>
+  <sequence>358</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I login with my account github</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:30</date>
+  <millis>1558768650518</millis>
+  <sequence>359</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I navigate to my gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:33</date>
+  <millis>1558768653938</millis>
+  <sequence>362</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://gist.github.com/samudray&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:33</date>
+  <millis>1558768653940</millis>
+  <sequence>363</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I navigate to my gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:33</date>
+  <millis>1558768653940</millis>
+  <sequence>364</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I navigate to my gist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:33</date>
+  <millis>1558768653942</millis>
+  <sequence>365</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654164</millis>
+  <sequence>372</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/img_Back to GitHub_avatar&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654354</millis>
+  <sequence>379</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ShopeeQaTestPage/img_New project_avatar_SignOut&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654355</millis>
+  <sequence>380</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654356</millis>
+  <sequence>381</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I SignOut Account</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654358</millis>
+  <sequence>382</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654556</millis>
+  <sequence>384</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654563</millis>
+  <sequence>385</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654564</millis>
+  <sequence>386</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I close the browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654569</millis>
+  <sequence>387</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO As a user, I want to see my list of gists</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654571</millis>
+  <sequence>388</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO As a user, I want to see my list of gists</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654806</millis>
+  <sequence>389</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file &amp;apos;Include/features/ShopeeQATest.feature&amp;apos; was failed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654812</millis>
+  <sequence>392</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file &amp;apos;Include/features/ShopeeQATest.feature&amp;apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat WSVerification1558768384709.run(WSVerification1558768384709:2)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:146)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:140)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:123)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:115)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:103)\n\tat com.kms.katalon.core.main.TestCaseMain.runFeatureFile(TestCaseMain.java:144)\n\tat com.kms.katalon.core.main.TestCaseMain$runFeatureFile$0.call(Unknown Source)\n\tat TempTempCase1558768378581.run(TempTempCase1558768378581.groovy:21)\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Feature file &apos;Include/features/ShopeeQATest.feature&apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat WSVerification1558768384709.run(WSVerification1558768384709:2)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:146)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:140)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:123)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:115)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:103)\n\tat com.kms.katalon.core.main.TestCaseMain.runFeatureFile(TestCaseMain.java:144)\n\tat com.kms.katalon.core.main.TestCaseMain$runFeatureFile$0.call(Unknown Source)\n\tat TempTempCase1558768378581.run(TempTempCase1558768378581.groovy:21)\n</property>
+  <property name="failed.exception.message">Feature file &apos;Include/features/ShopeeQATest.feature&apos; was failed</property>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654821</millis>
+  <sequence>393</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/ShopeeQATest.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654823</millis>
+  <sequence>395</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verification FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Feature file &amp;apos;Include/features/ShopeeQATest.feature&amp;apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat WSVerification1558768384709.run(WSVerification1558768384709:2)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:146)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:140)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:123)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:115)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:103)\n\tat com.kms.katalon.core.main.TestCaseMain.runFeatureFile(TestCaseMain.java:144)\n\tat com.kms.katalon.core.main.TestCaseMain$runFeatureFile$0.call(Unknown Source)\n\tat TempTempCase1558768378581.run(TempTempCase1558768378581.groovy:21)\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/ShopeeQATest.feature' was failed</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>23</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1</class>
+      <method>doCall</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1</class>
+      <method>doCall</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runFeatureFile</method>
+      <line>46</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runFeatureFile</method>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>WSVerification1558768384709</class>
+      <method>run</method>
+      <line>2</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>runScript</method>
+      <line>146</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>doExecute</method>
+      <line>140</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>123</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>accessMainPhase</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>execute</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runFeatureFile</method>
+      <line>144</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$runFeatureFile$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTempCase1558768378581</class>
+      <method>run</method>
+      <line>21</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Feature file &apos;Include/features/ShopeeQATest.feature&apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:101)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat WSVerification1558768384709.run(WSVerification1558768384709:2)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:146)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:140)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:123)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:115)\n\tat com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:103)\n\tat com.kms.katalon.core.main.TestCaseMain.runFeatureFile(TestCaseMain.java:144)\n\tat com.kms.katalon.core.main.TestCaseMain$runFeatureFile$0.call(Unknown Source)\n\tat TempTempCase1558768378581.run(TempTempCase1558768378581.groovy:21)\n</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">Feature file &apos;Include/features/ShopeeQATest.feature&apos; was failed</property>
+</record>
+<record>
+  <date>2019-05-25T14:17:34</date>
+  <millis>1558768654828</millis>
+  <sequence>397</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Verification</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
